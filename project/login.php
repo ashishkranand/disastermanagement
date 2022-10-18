@@ -135,7 +135,7 @@ a:hover{
 									<input type="password" class="form-control" name="p" id="pwd">
 								  </div>
 								  <div class="form-group">
-									<label for="pwd">Password:</label>
+									<label for="pwd">Image:</label>
 									<input type="file" class="form-control" name="img">
 								  </div>
 								  <div class="checkbox">

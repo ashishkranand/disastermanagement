@@ -33,6 +33,7 @@
             border: 5px solid black;
             outline: 5px solid red;
             outline-offset: 2px;
+            margin-top: -40%;
         }
     </style>
 </head>
@@ -43,19 +44,19 @@
     <div class="main">
     <nav class="navig">
         <ul>
-            <a href="./home.php"><li>Home</li></a>
-            <a href="./status.php"><li>status</li></a>
-            <a href="./project/login.php"><li>Logout</li></a>
+            <a href="./index.php"><li>Home</li></a>
+            <a href="./addstatus.php"><li>Update</li></a>
+            <a href="./admin.php"><li>Logout</li></a>
         </ul>
     </nav>
        <div class="main1">
        <div class="container" id="basic">
-       <form action="status.php" method="POST" enctype="multipart/form-data">
+       <!-- <form action="status.php" method="POST" enctype="multipart/form-data">
     <input type="text" name="name" id="" placeholder="Enter your name">
     <input type="submit" value="Find">
     <br>
     <br><br><br>
-    </form>
+    </form> -->
     <table border="2" align="center" width="100%">
         <tr>
             <th>id</th>
@@ -70,13 +71,13 @@
 </div>
 
 <?php
-$name = $_POST['name'];
+// $name = $_POST['name'];
 $DBConnect = mysqli_connect("localhost","root","");
 mysqli_select_db($DBConnect,"disastermanagement");
 if(!$DBConnect)
 	die("Not connected to the server".mysqli_connect_error());
 else
-$sql = "SELECT * FROM help WHERE name ='$name'";
+$sql = "SELECT * FROM help";
 $retval = mysqli_query($DBConnect ,$sql);
 if(mysqli_num_rows($retval)>0){
     while($row=mysqli_fetch_assoc($retval)){

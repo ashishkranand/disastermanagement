@@ -16,7 +16,7 @@
                 <ul class="navbar">
                     <a href="#"><li>Home</li></a>
                     <a href="./project/login.php"><li>Login</li></a>
-                    <a href="./project/login.php"><li>Register</li></a>
+                    <a href="./admin.php"><li>Admin</li></a>
                     <a href="#"><li>FAQ</li></a>
                 </ul>
             </nav>
@@ -282,7 +282,8 @@
     </div>
     <div class="map">
         <h1>We are here</h1>
-        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3589.666122220608!2d86.58492801438291!3d25.880464009992373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ee3d8cf68b0d27%3A0x242ed4e1ee5afc57!2sMukhiya%20Loz!5e0!3m2!1sen!2sin!4v1663997256710!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.726399109876!2d75.7029548145143!3d31.255996567277307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5f5e9c489cf3%3A0x4049a5409d53c300!2sLovely%20Professional%20University!5e0!3m2!1sen!2sin!4v1666072830700!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            
     </div>
     
 

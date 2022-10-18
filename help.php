@@ -16,6 +16,7 @@ else
 $sql = "Insert into help(name,mobile,location,type,problem) VALUES
 ('$name','$mobile','$location','$type','$problem')";
     if(mysqli_query($DBConnect,$sql)){
+        echo "$type";
         ?>
     <!DOCTYPE html>
 <html lang="en">
@@ -40,7 +41,10 @@ $sql = "Insert into help(name,mobile,location,type,problem) VALUES
     </nav>
        <div class="main1">
        <div class="container" id="basic">
-            <h2>Your response is submitted successfully , our team will contact you shortly.Thank you for asking us for help <br> Be patience.. We pray for you</h2>  
+            <h2>Your response is submitted successfully , our team will contact you shortly.Thank you for asking us for help, Be patience..</h2>  
+            <br><h2>You can contact us on 8434463000.</h2>
+            <h2>Thank you</h2>
+
         </div>
        </div>
     

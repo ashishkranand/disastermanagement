@@ -8,6 +8,6 @@ if($login->signin($e,$p))
 }
 else
 	{
-		$login->url("index.php?run=failed");
+		$login->url("./login.php?run=failed");
 	}
 ?>

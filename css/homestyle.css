@@ -41,7 +41,7 @@ a:hover{
 .main{
     /* height: 100vh; */
     /* width: 100vw; */
-    background-color: red;
+    /* background-color: red; */
     box-sizing: border-box;
     /* padding: 4%; */
 }
@@ -71,6 +71,12 @@ a:hover{
     justify-content: center;
     align-content: center;
 }
+.imgcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
 .images{
     overflow: hidden;
     display: flex;
@@ -81,7 +87,7 @@ a:hover{
     width: 200px;
 }
 .img img{
-    height: 100%;
+    /* height: 100%; */
     width: 100%;   
 }
 input[type=text], select, textarea {
